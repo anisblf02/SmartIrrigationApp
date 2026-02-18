@@ -4,8 +4,10 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     res.json({
-        soilMoisture: "45%",
-        temperature: "28°C"
+        soilMoisture: "40%",
+        temperature: "27°C",
+        humidity: "60%",
+        status: "Optimal"
     });
 });
 
